@@ -32,6 +32,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Mock-up
 
+![My image](./assets/images/Mock%20up.png)
 
 ## Submissiopn
 
