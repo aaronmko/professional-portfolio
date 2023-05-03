@@ -1,0 +1,161 @@
+/* Universal styling */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Start of header styling*/
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    padding: 25px;
+    background-color: #525353;
+    color: black;
+    font-weight: bolder;
+}
+
+h3 {
+    position: relative;
+    margin: auto;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-image: url(../images/On\ Cloud.png);
+    opacity: 0.75;
+}
+
+nav ul a {
+list-style: none;
+font-size: 28px;
+text-align: right;
+color: white;
+font-weight: bolder;
+}
+
+nav li {
+    display: inline;
+    margin: 50px;
+    color: white;
+}
+ /* End of header stlying */
+
+ 
+/* Profile picture sizing*/
+.profile-pic {
+    width: 200px;
+    height: 200px;
+}
+
+/* Section of styling profile description */
+.about-me {
+      color: white;
+      background-color:rgb(132, 132, 133); 
+      font-size: 20px;
+}
+
+.description {
+    
+    position: relative;
+    left: 225px;
+    bottom: 150px;
+    text-align: center;
+    /*width: 100%;*/
+    font-size: 20px;
+}
+
+/* Styling of interests and hobbies */
+.my-work {
+    display: flex;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+/* Contact information of mail address, github, and phone number */
+.contact-me {
+    font-size: 20px;
+    background-color:rgb(132, 132, 133);
+    color: white;
+}
+/* Class title to position and style About me, My Work, and Contact me text content*/
+.title {
+    text-align: center;
+    border-right: 5px solid rgb(51, 51, 52);
+    min-height: 100%;
+    padding: 50px;
+    max-width: 200px;
+}
+
+/* Start of styling and positioning of main images */
+.my-work-images {
+justify-content: space-between;
+margin: 50px; 
+}
+
+.my-work-images figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;   
+}
+
+figure:hover .martin-guitar {
+opacity: 0.5;
+}
+
+figure:hover .joola {
+    opacity: 0.5;
+    }
+
+/* End of styling and positioning of main images */
+ .contact-info  {
+    color: white;
+} 
+
+.contact-info li{
+    display: inline-block;
+}
+
+/* Start of footer unordered listed and list styling */
+footer ul {
+    list-style: none;
+    float: left;
+    width: 90%;
+    font-size: 24px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 250px;
+    text-align: center;
+}
+
+footer li {
+    margin: 100px;
+}
+/* End of footer and ul an dli styling */
+
+/* Large device media screen */
+
+@media only screen and (min-width: 992px) {
+    header,
+    footer {
+        display: inline-block;
+        width: 75%;
+    }
+}
+
+
+
+/* Small device media screen */
+
+@media only screen and (max-width: 767px) {
+   header,
+   footer {
+        display: inline-block;
+        width: 100%;
+    }
+}
