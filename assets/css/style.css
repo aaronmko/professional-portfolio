@@ -137,25 +137,3 @@ footer li {
     margin: 100px;
 }
 /* End of footer and ul an dli styling */
-
-/* Large device media screen */
-
-@media only screen and (min-width: 992px) {
-    header,
-    footer {
-        display: inline-block;
-        width: 75%;
-    }
-}
-
-
-
-/* Small device media screen */
-
-@media only screen and (max-width: 767px) {
-   header,
-   footer {
-        display: inline-block;
-        width: 100%;
-    }
-}
