@@ -112,6 +112,15 @@ figure:hover .joola {
     opacity: 0.5;
     }
 
+.martin-guitar {
+    height: 400px;
+    width: 400px;
+}
+
+.joola {
+    height: 400px;
+    width: 400px;
+}
 /* End of styling and positioning of main images */
  .contact-info  {
     color: white;
