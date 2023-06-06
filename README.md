@@ -34,7 +34,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ![My image](./assets/images/Mock%20up.png)
 
-## Submissiopn
+## Submission
 
 You are required to submit the following for review:
 
