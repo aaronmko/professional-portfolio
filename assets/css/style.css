@@ -104,20 +104,20 @@ margin: 50px;
 	transition: .3s ease-in-out;   
 }
 
-figure:hover .martin-guitar {
+figure:hover .code-refactor {
 opacity: 0.5;
 }
 
-figure:hover .joola {
+figure:hover .trendwatch {
     opacity: 0.5;
     }
 
-.martin-guitar {
+.code-refactor {
     height: 400px;
     width: 400px;
 }
 
-.joola {
+.trendwatch {
     height: 400px;
     width: 400px;
 }
