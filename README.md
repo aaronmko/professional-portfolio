@@ -36,7 +36,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Deployed Application
 
-[Link of Deployed app ](https://anud22.github.io/TrendWatch/)
+[Link of Deployed app Trend Watch ](https://anud22.github.io/TrendWatch/)
+
+[Link of Deployed app Music Shoopa ](https://github.com/jrsr5599/Project-2)
 
 
 ## Submission
