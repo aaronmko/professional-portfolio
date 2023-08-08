@@ -112,6 +112,10 @@ figure:hover .trendwatch {
     opacity: 0.5;
     }
 
+figure:hover .musicshoopa {
+    opacity: 0.5;
+    }
+
 .code-refactor {
     height: 400px;
     width: 400px;
